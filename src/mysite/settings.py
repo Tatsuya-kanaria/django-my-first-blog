@@ -25,7 +25,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", ".pythonanywhere.com"]
+ALLOWED_HOSTS = ["127.0.0.1", ".pythonanywhere.com",
+                 "kana-djangogirls-sample.herokuapp.com"]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
